@@ -23,7 +23,7 @@ brew install Rust
 pip install https://huggingface.co/spacy/en_core_web_trf/resolve/main/en_core_web_trf-any-py3-none-any.whl
 ```
 
-#### For others (centos was tested)
+#### For others (tested on centos)
 
 ```sh
 pip install https://huggingface.co/spacy/en_core_web_trf/resolve/main/en_core_web_trf-any-py3-none-any.whl
