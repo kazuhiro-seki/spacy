@@ -1,10 +1,15 @@
 # NER by SpaCy
 
-## Install
+## Virtual environment
 
 ```sh
 python3 -m venv venv
 source venv/bin/activate
+```
+
+## Install
+
+```sh
 pip install spacy
 ```
 
