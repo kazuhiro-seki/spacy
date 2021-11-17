@@ -1,4 +1,4 @@
-# NER by SpaCy on M1 Mac
+# NER by SpaCy
 
 ## Install
 
@@ -16,16 +16,29 @@ python3 -m spacy download en_core_web_sm
 
 ### Install transformer-based model
 
+#### For M1 Mac
+
 ```sh
 brew install Rust
 pip install https://huggingface.co/spacy/en_core_web_trf/resolve/main/en_core_web_trf-any-py3-none-any.whl
 ```
+
+#### For others (centos was tested)
+
+```sh
+pip install https://huggingface.co/spacy/en_core_web_trf/resolve/main/en_core_web_trf-any-py3-none-any.whl
+```
+
 
 ## Run
 
 ```sh
 python test.py
 ```
+
+## Note
+
+SpaCy and SciSpaCy collide due to different version dependencies and should be installed separately.
 
 ## References
 
