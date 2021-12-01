@@ -5,13 +5,13 @@
 ```sh
 python3 -m venv venv
 source venv/bin/activate
-pip install spacy
+pip install "spacy[apple]"
 ```
 
 ### Install generic (small) model
 
 ```sh
-python3 -m spacy download en_core_web_sm
+python -m spacy download en_core_web_sm
 ```
 
 ### Install transformer-based model
